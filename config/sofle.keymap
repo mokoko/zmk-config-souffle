@@ -35,6 +35,11 @@
             bindings = <&kp LS(LG(T))>;
             key-positions = <28 25>;
         };
+
+        backspace-combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <33 34>;
+        };
     };
 
     keymap {
